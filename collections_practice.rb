@@ -34,7 +34,7 @@ end
 
 def kesha_maker(array)
   
-  array.collect do |item|
+  array.each do |item|
     item[2] = '$'
   end
     
