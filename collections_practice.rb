@@ -47,7 +47,7 @@ end
 def find_a(array)
   result = []
   array.each do |item|
-    if (item.starts_with?('a'))
+    if (item.start_with?('a'))
       result.push(item)
     end
   end
