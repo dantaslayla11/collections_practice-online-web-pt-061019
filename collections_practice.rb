@@ -64,7 +64,14 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
+  i=0
+  array.collect do |item|
+    if (i!=1)
+     item = item + 's'  
+    end
+    i = i+1
+  end
+  array
 end
 
 
