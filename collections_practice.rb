@@ -34,13 +34,9 @@ end
 
 def kesha_maker(array)
   
-  array.split(",")
-  
-  
-    
-    
-      
-    end 
+  array.collect do |item|
+    item[2] = $
+  end
     
   
  
