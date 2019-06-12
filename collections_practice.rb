@@ -55,7 +55,13 @@ def find_a(array)
 end
  
 
-def sum_array()
+def sum_array(array)
+  sum = 0
+  array.each do |item|
+    sum = sum + item
+  end
+  sum
+end
 
 
 
