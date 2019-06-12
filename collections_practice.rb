@@ -34,8 +34,8 @@ end
 
 def kesha_maker(array)
   
-  array.collect do |item|
-    item
+  array.each do |item|
+    puts item
   end
     
   
