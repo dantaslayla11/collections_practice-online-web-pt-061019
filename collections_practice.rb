@@ -34,7 +34,9 @@ end
 
 def kesha_maker(array)
   
-  string.split
+  string.split(",")
+  array|2| 
+  
     
     
       
